@@ -1,0 +1,70 @@
+/* Add custom styles for your tabs */
+.tablinks {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: black; /* Text color */
+}
+
+.tablinks:hover {
+    background-color: #007BFF; /* Hover color */
+    color: #ffffff; /* Text color on hover */
+}
+
+/* Modify the map container styles */
+.map-container {
+    height: 800px; /* Increased map container height */
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Increased border radius */
+    overflow: hidden;
+}
+
+/* Add a custom style for your header */
+header {
+    background-color: #0056b3; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+/* Customize button colors */
+.btn-primary {
+    background-color: #007BFF; /* Tab 1 color */
+    border-color: #007BFF;
+}
+
+.btn-success {
+    background-color: #28A745; /* Tab 2 color */
+    border-color: #28A745;
+}
+
+.btn-warning {
+    background-color: #FFC107; /* Tab 3 color */
+    border-color: #FFC107;
+}
+
+.btn-danger {
+    background-color: #DC3545; /* Tab 4 color */
+    border-color: #DC3545;
+}
+
+.btn-info {
+    background-color: #17A2B8; /* Tab 5 color */
+    border-color: #17A2B8;
+}
+
+.btn-success.tablinks { /* tab 6 color */
+    background-color: #4CAF50; 
+    border-color: #4CAF50;
+    color: #fff; 
+}
+
+.city-logo {
+    width: 80px; /* Adjust the width to your preference */
+    height: auto;
+    margin-right: 10px;
+}
+
